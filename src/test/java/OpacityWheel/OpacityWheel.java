@@ -1,13 +1,13 @@
-package com.example;
-
+package OpacityWheel;
+import com.OpacityWheel.OpacityWheelPlugin;
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class OpacityWheel
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(OpacityWheelPlugin.class);
 		RuneLite.main(args);
 	}
 }
